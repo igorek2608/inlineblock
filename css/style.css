@@ -1,0 +1,246 @@
+body{
+font-family: 'Roboto', sans-serif; 
+}
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    margin: 0;
+}
+
+/*header******/
+
+.templates{
+    color:#F9F9F9;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.templates:hover{
+    color: aqua;
+}
+
+.block{
+    text-align: center;
+    background-color: #EEEFF1;
+    height: 100%;
+    padding-bottom: 7%;
+    padding-top: 4%;
+}
+.header{
+    height: 100%;
+}
+
+.header__inner{
+    width: 100%;
+}
+
+.container{
+    max-width: 1100px; 
+    width: 100%; 
+    margin: 0 auto;
+}
+
+.header__logo{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+li{
+    list-style-type: none;
+}
+
+.nav__text{
+    display: inline-block;
+    margin-left: 30%; 
+}
+
+.nav__link{
+  display: inline-block;
+   padding-left: 40px;
+    
+}
+
+.nav__item{
+    text-decoration:none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: black;
+}
+
+.title{
+    background-color: #EEEFF1;
+    height: 100%;
+    padding-bottom: 5%;
+   
+}
+
+.title__content{
+    max-width: 1000px;
+    width: 100%;
+    margin:0 auto;
+    padding-left: 30px;
+}
+
+.content__innner{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    align-items: center;
+    
+}
+
+.design__layout{
+display: inline-block;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 79px;
+padding-left: 40px;
+color: #000000;
+margin-bottom: 50px;
+padding-top: 0;
+}
+
+.design__info{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+padding-left: 40px;
+color: #727272;
+margin-bottom: 30px;
+
+}
+.design{
+    padding-left: 100px;
+    margin: 0;
+}
+.frame__icon{
+    width: 328px;
+}
+.btn{
+    display: inline-block;
+    padding: 15px 35px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    background: #34547A;
+    margin-left: 35px;
+    text-decoration: none;
+}
+
+/*******обо мне*/
+.about__me{
+    height: 300px;
+    padding-top: 80px;
+}
+
+.content__about{
+    max-width: 540px;
+    width: 100%;
+    margin:0 auto; 
+}
+
+.about__title{
+font-weight: 500;
+font-size: 32px;
+line-height: 37px;
+text-align: center;
+color: #000000;
+margin-bottom: 40px;
+}
+
+.about__info{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272; 
+    text-indent: 35px;
+}
+
+/******проекты***/
+
+.projects{
+    background: #34547A;
+    padding: 100px 0;
+}
+.project__logo{
+    display: inline-block;
+}
+.project__text{
+    display: inline-block;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.project__item{
+    display: inline-block;
+    margin-left: 22px;
+}
+
+/************мои навыки****/
+.skills{
+    padding: 90px 0;
+}
+.container__skills{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.my__skills{
+    display: inline-block; 
+}
+
+.my__foto{
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.skills__title{
+font-weight: 500;
+font-size: 32px;
+line-height: 37px;
+margin-bottom: 30px;
+color: #000000;
+}
+
+.adobe__text{
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+margin-bottom: 0;
+}
+
+.level__icon{
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.level{
+    display: inline-block;
+    position: relative;
+    top: -6px;
+    z-index: 2;
+    margin-bottom: 50px;
+    }
+    
+.foto{
+    width: 550px;
+}
+.level{
+    width:350px;
+}
+
+
+
