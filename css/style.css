@@ -265,3 +265,37 @@ margin-bottom: 0;
     bottom: 270px;
     right: 500px;
 }
+
+
+/*******images***********/
+.images{
+ margin-top: 30px;   
+}
+
+.images__item{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+}
+.images__foto{
+    width: 25%;
+}
+.image__eye{
+    position: absolute;
+    z-index: 2;
+    bottom: 620px;
+    right: 1050px;
+}
+
+/*********microsoft********/
+.wraper{
+    display: flex;
+    max-width: 1110px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.microsoft{
+    padding: 50px 0;
+}
