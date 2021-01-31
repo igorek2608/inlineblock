@@ -141,8 +141,8 @@ margin-bottom: 30px;
 
 /*******обо мне*/
 .about__me{
-    height: 300px;
-    padding-top: 80px;
+    height: 100%;
+    padding: 80px 0;
 }
 
 .content__about{
@@ -242,5 +242,26 @@ margin-bottom: 0;
     width:350px;
 }
 
+/***how i work***/
 
-
+.work{
+    background: #EEEFF1;
+    padding: 120px 0 60px 0;
+}
+.video__work{
+    width: 1110px;
+}
+.video{
+    width: 100%;
+    max-width: 1110px;
+    margin:0 auto;
+    padding-top: 50px;
+    position: relative; 
+    z-index: 1;
+}
+.play__logo{
+    position: absolute;
+    z-index: 2;
+    bottom: 270px;
+    right: 500px;
+}
