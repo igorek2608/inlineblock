@@ -312,7 +312,7 @@ margin-bottom: 0;
 /******web***********/
 .web{
     background: #EEEFF1;
-    padding-top: 30px;
+    padding-top: 90px;
     padding-bottom: 100px;
 }
 
@@ -342,19 +342,18 @@ margin-bottom: 0;
     border: none;
     }
 
-    .enter__message{
-        padding: 10px 372px 150px 10px;
-        border: none;
-    }
+.enter__message{
+    padding: 10px 372px 150px 10px;
+    border: none;
+}
 
-    .botton{
-        width: 100%;
-        margin: 30px auto;
-        max-width: 190px;
-        padding: 15px 30px;
-        background: #34547A;
-        text-align: center;
-        
+.botton{
+    width: 100%;
+    margin: 60px auto;
+    max-width: 190px;
+    padding: 15px 30px;
+     background: #34547A;
+    text-align: center;  
     }
 
     .botton__link{
@@ -366,3 +365,36 @@ margin-bottom: 0;
     color: #FFFFFF;
     text-transform: uppercase;
     }
+
+
+    /*********footer****/
+.footer{
+    background: #34547A;
+    padding: 50px 0;
+    }
+
+.footer__wraper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+    margin: 0 auto;
+    align-items: center;
+    }
+
+.ivanov{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.law{
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.vk__logo{
+    padding-right: 20px;
+}
