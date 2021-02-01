@@ -174,9 +174,11 @@ margin-bottom: 40px;
     background: #34547A;
     padding: 100px 0;
 }
+
 .project__logo{
     display: inline-block;
 }
+
 .project__text{
     display: inline-block;
     font-size: 21px;
@@ -184,6 +186,7 @@ margin-bottom: 40px;
     color: #FFFFFF;
     margin-left: 10px;
 }
+
 .project__item{
     display: inline-block;
     margin-left: 22px;
@@ -193,10 +196,12 @@ margin-bottom: 40px;
 .skills{
     padding: 90px 0;
 }
+
 .container__skills{
     max-width: 1150px;
     margin: 0 auto;
 }
+
 .my__skills{
     display: inline-block; 
 }
@@ -251,6 +256,7 @@ margin-bottom: 0;
 .video__work{
     width: 1110px;
 }
+
 .video{
     width: 100%;
     max-width: 1110px;
@@ -259,6 +265,7 @@ margin-bottom: 0;
     position: relative; 
     z-index: 1;
 }
+
 .play__logo{
     position: absolute;
     z-index: 2;
@@ -281,6 +288,7 @@ margin-bottom: 0;
 }
 .images__foto{
     width: 25%;
+
 }
 .image__eye{
     position: absolute;
@@ -299,3 +307,62 @@ margin-bottom: 0;
 .microsoft{
     padding: 50px 0;
 }
+
+
+/******web***********/
+.web{
+    background: #EEEFF1;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.form-group{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.form{
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.content__about{
+    padding-bottom: 65px;
+}
+
+.name{
+    padding: 10px 50px 10px 10px;
+    border: none;
+}
+
+.email{
+    padding: 10px 55px 10px 10px;
+    border: none;
+    }
+
+    .enter__message{
+        padding: 10px 372px 150px 10px;
+        border: none;
+    }
+
+    .botton{
+        width: 100%;
+        margin: 30px auto;
+        max-width: 190px;
+        padding: 15px 30px;
+        background: #34547A;
+        text-align: center;
+        
+    }
+
+    .botton__link{
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    }
